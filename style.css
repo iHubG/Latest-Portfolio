@@ -276,6 +276,11 @@ h2.student-text {
     box-shadow: 0px 2px 1px 0px black;
 }
 
+img.skill-img {
+    
+    width: 80px;
+}
+
 /* Projects */
 #projects {
     margin-top: 100px;
@@ -288,6 +293,36 @@ h2.student-text {
     }
 }
 
+/* Tooltips 
+.tooltip.show {
+    opacity: 1;
+}
+  
+.tooltip-inner {
+background-color: #0096FF;
+box-shadow: 0px 0px 2px 0px black;
+opacity: 1 !important;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+border-right-color: #ff0000 !important;
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+border-left-color: #ff0000 !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+border-bottom-color: #ff0000 !important;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+border-top-color: #0096FF !important;
+}*/
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+  }
 
 /* Dark Mode Properties*/
 .dark-mode {
