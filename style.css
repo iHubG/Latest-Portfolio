@@ -335,6 +335,10 @@ border-top-color: #0096FF !important;
     color: #fff;
 }
 
+.dark-mode .certi-text {
+    color: #0c0c0d;
+}
+
 .dark-mode .navigation a:hover {
     opacity: 0.8;
     color: #0096FF;
