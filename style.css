@@ -306,6 +306,18 @@ a.certi-text-2 {
     --bs-tooltip-bg: var(--bs-primary);
   }
 
+
+  /* Footer */
+
+.social-links-footer img {
+    width: 30px; 
+}
+
+.social-links-footer img:hover {
+    opacity: 0.8;
+}
+
+
 /* Dark Mode Properties*/
 .dark-mode {
     background-color: #0c0c0d;
